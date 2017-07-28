@@ -1,7 +1,6 @@
-//index.js 1.0.0 da error
-//SyntaxError: Unexpected token import
+//index.js 1.0.1
 require('babel-core/register')
 require('babel-polyfill')
-const oGraph = require('./my_modules/app')
+const oGraphSchema = require('./my_modules/graphql_schema')
 
-console.log("oGraph",oGraph)
+console.log("oGraphSchema",oGraphSchema)
