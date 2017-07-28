@@ -7,28 +7,22 @@ import {
   GraphQLString
 } from 'graphql';
  
-var schema = new GraphQLSchema({
+var oGqlSchema = new GraphQLSchema({
   query: new GraphQLObjectType({
-    name: 'RootQueryType',
+    name: "RootQueryType",
     fields: {
       hello: {
         type: GraphQLString,
         resolve() {
-          return 'world';
+          return "world";
         }
       }
     }
   })
 })
 
-var query = '{ hello }';
+var sQuery = "{ hello }"
  
-graphql(schema, query).then(result => {
- 
-  // Prints 
-  // { 
-  //   data: { hello: "world" } 
-  // } 
-  console.log(result);
- 
+graphql(oGqlSchema,sQuery).then(oResult => {
+  console.log(oResult);
 });
