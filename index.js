@@ -2,4 +2,6 @@
 //SyntaxError: Unexpected token import
 require('babel-core/register')
 require('babel-polyfill')
-require('./app')
+const oGraph = require('./my_modules/app')
+
+console.log("oGraph",oGraph)

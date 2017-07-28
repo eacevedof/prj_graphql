@@ -18,4 +18,4 @@ var schema = new GraphQLSchema({
     }
   })
 })
-console.log("app.js")
+console.log("importado app.js")
