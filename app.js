@@ -17,4 +17,5 @@ var schema = new GraphQLSchema({
       }
     }
   })
-});
+})
+console.log("app.js")

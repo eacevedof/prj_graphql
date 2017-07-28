@@ -7,8 +7,5 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1"
-  },
-  "scripts": {
-    "transpile-es2015": "babel src -d lib"
   }
 }
