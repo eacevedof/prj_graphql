@@ -1,3 +1,5 @@
+//graphql_schema.js 1.0.1 
+//https://www.npmjs.com/package/graphql
 import {
   graphql,
   GraphQLSchema,
@@ -18,4 +20,15 @@ var schema = new GraphQLSchema({
     }
   })
 })
-console.log("importado app.js")
+
+var query = '{ hello }';
+ 
+graphql(schema, query).then(result => {
+ 
+  // Prints 
+  // { 
+  //   data: { hello: "world" } 
+  // } 
+  console.log(result);
+ 
+});

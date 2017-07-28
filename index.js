@@ -5,15 +5,3 @@ require('babel-polyfill')
 const oGraphSchema = require('./my_modules/graphql_schema')
 
 console.log("oGraphSchema",oGraphSchema)
-
-var query = '{ hello }';
- 
-oGraphSchema(schema, query).then(result => {
- 
-  // Prints 
-  // { 
-  //   data: { hello: "world" } 
-  // } 
-  console.log(result);
- 
-});
