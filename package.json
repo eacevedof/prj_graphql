@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "graphql": "^0.10.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
   }
 }
