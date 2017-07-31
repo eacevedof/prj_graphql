@@ -3,6 +3,7 @@
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",
     "babel-polyfill": "^6.23.0",
+    "express": "^4.15.3",
     "graphql": "^0.10.5"
   },
   "devDependencies": {
