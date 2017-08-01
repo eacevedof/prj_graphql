@@ -1,5 +1,18 @@
-//index.js 1.0.1
-//https://www.npmjs.com/package/graphql
-require('babel-core/register')
-require('babel-polyfill')
-const oGraphSchema = require('./my_modules/graphql_schema')
+//index.js 1.0.2
+//https://github.com/steveluscher/zero-to-graphql/blob/master/zero-node/
+//https://youtu.be/UBGzsb2UkeY?t=907
+import express from "express"
+import graphQLHTTP from "express-graphql"
+import schema from "./schema"
+const oExpress = express()
+
+oExpress.use(
+    graphQLHTTP({
+        schema,
+        graphiql:true,
+    })
+)
+
+oExpress.listen(5000)
+
+
