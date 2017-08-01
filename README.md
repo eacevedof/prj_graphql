@@ -32,8 +32,42 @@ https://github.com/eacevedof/prj_graphql
     en web se debe ejecutar el comando:<br/>
     <b>npm start</b>
 </p>
-<br/>
+
 <h4>Consultas</h4>
 '''js
+{
+  person(id: "1") {
+    firstName
+    lastName
+    email
+    username
+    friends {
+      firstName
+      email
+    }
+  }
+}
+'''
+<b>Resultado</b>
+<p>
+Recibo este error:
+</p>
+'''js
+{
+  "data": {
+    "person": null
+  },
+  "errors": [
+    {
+      "message": "Unexpected token < in JSON at position 0",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ]
+    }
+  ]
+}
 '''
 
