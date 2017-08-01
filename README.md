@@ -15,21 +15,20 @@ https://github.com/eacevedof/prj_graphql
 </h3>
 
 <h4>Pasos instalación NODE y Express</h4>
-<ul>
-    <li>    
-        Descarga la carpeta "zero-node" 
-    </li>
-    <li>
-        Ejecuta un npm install <br/>
-        Esto instalará todo lo que está configurado en <b>package.json</b>.<br/>
-        No se si con <b>yarn add</b> funcione en lugar de npm install, puede que si.
-    </li>
-    <li>
-        Si te fijas en el json en la parte de <b>scripts</b> se aprecia lo siguiente:<br/>
-        <i>"start": "nodemon --exec babel-node --presets es2015,stage-0 -- index.js",</i><br/>
-        Esto quiere decir que despues de la instalación (paso anterior) para ver la interface
-        en web se debe ejecutar el comando:<br/>
-        <b>npm start</b>
-    </li>
-</ul>
+<p>    
+    Descarga la carpeta "zero-node" 
+</p>
+<p>
+    Ejecuta un npm install <br/>
+    Esto instalará todo lo que está configurado en <b>package.json</b>.<br/>
+    No se si con <b>yarn add</b> funcione en lugar de npm install, puede que si.
+</p>
+<p>
+    Si te fijas en el json en la parte de <b>scripts</b> se aprecia lo siguiente:<br/>
+    <i>"start": "nodemon --exec babel-node --presets es2015,stage-0 -- index.js",</i><br/>
+    Esto quiere decir que despues de la instalación (paso anterior) para ver la interface
+    en web se debe ejecutar el comando:<br/>
+    <b>npm start</b>
+</p>
+
 
