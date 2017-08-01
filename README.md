@@ -26,7 +26,7 @@ https://github.com/eacevedof/prj_graphql
 </p>
 <br/>
 <p>
-    Si te fijas en el json en la parte de <b>scripts</b> se aprecia lo siguiente:<br/>
+    <b>3</b> Si te fijas en el json en la parte de <b>scripts</b> se aprecia lo siguiente:<br/>
     <i>"start": "nodemon --exec babel-node --presets es2015,stage-0 -- index.js",</i><br/>
     Esto quiere decir que despues de la instalación (paso anterior) para ver la interface
     en web se debe ejecutar el comando:<br/>
