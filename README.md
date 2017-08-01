@@ -76,9 +76,9 @@ Recibo este error:
 
 <b>Sol:</b>
 <p>
-Debo copiar zero_django e instalar django de modo que publique el ws
-por el puerto 8000.<br/>
-Este proyecto tiene una bd <b>db.sqlite3</b>
-![sqlite3_django](https://user-images.githubusercontent.com/2829142/28816828-7fcd69ca-76a6-11e7-8f9d-b7b59f9b4f40.PNG)
+  Debo copiar zero_django e instalar django de modo que publique el ws
+  por el puerto 8000.<br/>
+  Este proyecto tiene una bd <b>db.sqlite3</b>
+  <img rc="https://user-images.githubusercontent.com/2829142/28816828-7fcd69ca-76a6-11e7-8f9d-b7b59f9b4f40.PNG">
 </p>
 
