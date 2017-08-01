@@ -83,5 +83,10 @@ Recibo este error:
 
 ![sqlite3_django](https://user-images.githubusercontent.com/2829142/28817065-592b9d18-76a7-11e7-8ca6-c1679300f76e.PNG)
 
-
+<p>
+He instalado python en windows: <b>python --version</b> Python 3.6.2 <br/>
+He instalado django: <b>django-admin --version</b> 1.11.3 <br/>
+Cambio el puerto: <b>manage.py runserver 0.0.0.0:8001</b> <br/>
+Abro el link: <a href="http://localhost:8001/graphiql">http://localhost:8001/graphiql</b>
+</p>
 
