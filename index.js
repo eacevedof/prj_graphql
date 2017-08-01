@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
 import graphqlHTTP from 'express-graphql';
 import schema from './schema';
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'http://localhost:8001';
 
 function getJSONFromRelativeURL(relativeURL) {
   return fetch(`${BASE_URL}${relativeURL}`)

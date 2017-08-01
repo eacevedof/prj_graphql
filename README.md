@@ -90,3 +90,25 @@ Cambio el puerto: <b>manage.py runserver 0.0.0.0:8001</b> <br/>
 Abro el link: <a href="http://localhost:8001/graphiql">http://localhost:8001/graphiql</b>
 </p>
 
+```js
+{
+  "data": {
+    "person": {
+      "firstName": "Steven",
+      "lastName": "Luscher",
+      "email": "steveluscher@fb.com",
+      "username": "steveluscher",
+      "friends": [
+        {
+          "firstName": "Adrian",
+          "email": "a.holovaty@django.com"
+        },
+        {
+          "firstName": "Simon",
+          "email": "s.willison@django.com"
+        }
+      ]
+    }
+  }
+}
+```
