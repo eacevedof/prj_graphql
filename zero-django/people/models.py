@@ -1,3 +1,5 @@
+# models.py 1.0.1
+from pprint import pprint
 from django.contrib.auth.models import AbstractUser
 from django.core.urlresolvers import reverse
 from django.db import models
@@ -10,7 +12,7 @@ class Person(AbstractUser):
     friends = models.ManyToManyField('self')
 
     def as_json(self):
-        out = dict(
+        json = dict(
             id=str(self.id),
             first_name=self.first_name,
             last_name=self.last_name,
@@ -21,4 +23,4 @@ class Person(AbstractUser):
                 for friend in self.friends.all()
             ],
         )
-        return out
+        return json
