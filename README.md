@@ -87,7 +87,7 @@ Recibo este error:
 He instalado python en windows: <b>python --version</b> Python 3.6.2 <br/>
 He instalado django: <b>django-admin --version</b> 1.11.3 <br/>
 Cambio el puerto: <b>manage.py runserver 0.0.0.0:8001</b> <br/>
-Abro el link: <a href="http://localhost:8001/graphiql">http://localhost:8001/graphiql</b>
+Abro el link: <a href="http://localhost:8001/graphiql">http://localhost:8001/graphiql</a>
 </p>
 
 ```js
