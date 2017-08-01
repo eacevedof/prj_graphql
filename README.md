@@ -34,7 +34,7 @@ https://github.com/eacevedof/prj_graphql
 </p>
 
 <h4>Consultas</h4>
-'''js
+```js
 {
   person(id: "1") {
     firstName
@@ -47,12 +47,12 @@ https://github.com/eacevedof/prj_graphql
     }
   }
 }
-'''
+```
 <b>Resultado</b>
 <p>
 Recibo este error:
 </p>
-'''js
+```js
 {
   "data": {
     "person": null
@@ -69,5 +69,5 @@ Recibo este error:
     }
   ]
 }
-'''
+```
 
