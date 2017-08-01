@@ -31,4 +31,7 @@ https://github.com/eacevedof/prj_graphql
     <b>npm start</b>
 </p>
 
+<h4>Consultas</h4>
+'''js
+'''
 
